@@ -1,0 +1,7 @@
+origin     is  (0,0);
+rot   is   0;
+scale   is (1,1);
+for T from -120 to 120 step 0.1 draw(t,-t);
+for T from -120 to 120 step 0.1 draw(20+10**2-60/2*4,-t);
+rot is PI/2;
+for T from -120 to 120 step 0.1 draw(t,-t);
